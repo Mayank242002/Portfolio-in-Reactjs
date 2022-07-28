@@ -1,0 +1,37 @@
+#header {
+    background-color: rgb(219, 178, 238);
+    padding: 20px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #header > a {
+    color: black;
+  
+    text-decoration: none;
+  }
+  
+  .header-right:hover {
+    background-color: rgb(167, 74, 211);
+  }
+  .header-left {
+    text-align: left;
+    text-decoration: none;
+    flex-grow: 4;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .header-right {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  @media (max-width: 550px) {
+    #header {
+      flex-direction: column;
+    }
+    .header-right {
+      text-align: left;
+    }
+  }
