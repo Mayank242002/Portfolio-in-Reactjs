@@ -1,0 +1,14 @@
+#Skills > h1{
+    text-align: center;
+    margin: 70px 0px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 5px;
+  }
