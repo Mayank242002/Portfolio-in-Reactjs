@@ -1,0 +1,48 @@
+#about {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+  }
+  .about-information {
+    margin: 150px 40px;
+  }
+  .about-information > h1,
+  h2 {
+    padding: 10px 10px;
+  }
+  
+  #about img {
+    width: 500px;
+    height: 400px;
+    margin: 40px 5px;
+    float: right;
+  }
+  
+  @media (max-width: 550px) {
+    #about {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .about-information2 > h1 {
+    padding: 7px;
+    font-size: 50px;
+  }
+  .button {
+    background-color: rgb(197, 121, 233);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: rgb(167, 74, 211);
+  }
