@@ -10,8 +10,8 @@ function Header()
             <h2 style={{fontSize:"60px"}}>I AM MAYANK</h2>
             <h3 style={{fontSize:"30px"}}>Junior Web Developer</h3>
         </div>
-        <img src={require("../images/profile.jpg")} alt="profile-image1"/>
-        <img src={require("../images/profile2.jpg")} alt="profile-image2"/>
+        <img src={require("../images/profile8.jpg")} className="img1" alt="profile-image1"/>
+        <img src={require("../images/profile6.jpg")} className="img2"alt="profile-image2"/>
         <div class="about-information2">
             <h1>LET ME </h1>
             <h1>INTRODUCE</h1>

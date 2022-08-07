@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #Contact > h1{
+    text-align: center;
+    margin: 70px 0px;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  /* Style inputs */
+  input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+ .Form > button {
+    background-color: #4469ee;
+    color: white;
+    padding: 12px 20px;
+    border: solid;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .Form > button:hover {
+    background-color: #1141ee;
+  }
+  
+  /* Style the container/contact section */
+  .container2 {
+    border-radius: 5px;
+    background-color: white;
+    padding: 55px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .Form
+  {
+    margin-top: 50px;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

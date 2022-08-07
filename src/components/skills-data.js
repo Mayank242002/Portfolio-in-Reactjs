@@ -4,7 +4,7 @@ const Data=[
        items:["HTML5","CSS","JavaScript","C++","Python"]
     },
     {
-        topic:"FRAMEWORKS AND LIBRARRIES",
+        topic:"FRAMEWORKS/LIBRARIES",
         items:["Reactjs","Express","Firebase","Streamlit","Pandas","Numpy"]
     },
     {

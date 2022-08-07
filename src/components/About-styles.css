@@ -10,8 +10,16 @@
   h2 {
     padding: 10px 10px;
   }
+
+  .img2
+  {
+    width: 600px;
+    height: 550px;
+    margin: 10px 1px;
+    float: right;
+  }
   
-  #about img {
+  .img1 {
     width: 500px;
     height: 400px;
     margin: 40px 5px;
@@ -30,7 +38,7 @@
     font-size: 50px;
   }
   .button {
-    background-color: rgb(197, 121, 233);
+    background-color: #4469ee;
     border: none;
     color: white;
     padding: 20px;
@@ -44,5 +52,5 @@
   }
   
   .button:hover {
-    background-color: rgb(167, 74, 211);
+    background-color: #1141ee;
   }

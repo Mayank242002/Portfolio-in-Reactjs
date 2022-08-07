@@ -11,7 +11,7 @@
   }
   
   .projects-items > img {
-    width: 400px;
+    width: 550px;
     height: 200px;
   }
   .container {
@@ -26,10 +26,14 @@
   
   .links > a {
     text-decoration: none;
-    color: rgb(205, 149, 231);
+    color: #6c88ee;
     margin: 10px 0;
   }
   
   .links > a:hover {
-    color: rgb(167, 74, 211);
+    color: #1242ef;
   }
+
+.projects-items{
+  margin: 20px 15px;
+}

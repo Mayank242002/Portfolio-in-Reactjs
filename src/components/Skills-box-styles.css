@@ -1,19 +1,23 @@
 .skills-box-item {
-    background-color: rgb(219, 178, 238);
+    background-color: #6c89f2;
     border: none;
     border-radius: 4px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgb(236, 221, 221);
     transition: all 1s;
+    color:white;
+    padding:19px;
+    margin: 20px 10px;
   }
   
   .skills-box-item:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgb(119, 111, 111);
   }
   .skills-box-item > h1 {
     margin: 25px 0px;
     text-align: center;
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
   }
   .skills-box-item > p {
     text-align: center;
