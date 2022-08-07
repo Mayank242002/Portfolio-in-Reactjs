@@ -2,7 +2,7 @@ import React,{useRef} from "react";
 import emailjs from '@emailjs/browser';
 import "./Contact-styles.css";
 
-function Contact()
+function Contact({SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY})
 {
     const form = useRef();
 
