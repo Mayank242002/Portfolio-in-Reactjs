@@ -1,13 +1,13 @@
 const data=[
     {
        Title:"Spark Live",
-       Live:"https://spark-live.herokuapp.com/",
+       Live:"https://spark-live.onrender.com/",
        Source_code:"https://github.com/Mayank242002/Clothing-store",
        Image_url:"Spark-Live.png"
     },
     {
         Title:"Blogging website",
-        Live:"https://shielded-ravine-85502.herokuapp.com/",
+        Live:"https://blogwebsbite.onrender.com/",
         Source_code:"https://github.com/Mayank242002/Blogwebsite",
         Image_url:"blog-website_project-1.PNG"
     },
@@ -31,7 +31,7 @@ const data=[
     },
     {
         Title:"Todo List",
-        Live:"https://calm-eyrie-94815.herokuapp.com/",
+        Live:"https://todo-x46o.onrender.com/",
         Source_code:"https://github.com/Mayank242002/Todolist",
         Image_url:"todo-project-1.PNG"
     }

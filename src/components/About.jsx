@@ -25,7 +25,7 @@ function Header()
                 <p style={{wordSpacing: "3px"}}>I'm a  Developer.I also have Basic knowledge of Data Structures and Algorithms, Google cloud
                     platform,Azure,flutter</p>
                 <br/>
-                <button class="button"><a href="https://drive.google.com/file/d/1bTJZn_rMocTWGMtGbUyJkaKfSB1bODaf/view?usp=sharing" download={"Mayank Resume"}>Get Resume</a></button>
+                <button class="button"><a href="https://drive.google.com/file/d/1uVNoLtQmoIh_Gtnx1g7vBC11UEa_voKs/view?usp=sharing" download={"Mayank Resume"}>Get Resume</a></button>
             </div>
 
         </div>

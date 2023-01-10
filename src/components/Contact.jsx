@@ -9,7 +9,7 @@ function Contact({SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY})
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_q89tc2p', 'template_ive8yai', form.current, 'fhCihLiuroprNHNzc')
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
           .then((result) => {
               console.log(result.text);
               e.target.reset();
@@ -24,7 +24,7 @@ function Contact({SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY})
           </div>
        <div className="row">
          <div class="column">
-          <img src={require("../images/map.jpg")} style={{width:"90%"}}/>
+          <img alt="for contact"src={require("../images/map.jpg")} style={{width:"90%"}}/>
          </div>
          <div className="column">
           <form className="Form" ref={form} onSubmit={sendEmail}>
